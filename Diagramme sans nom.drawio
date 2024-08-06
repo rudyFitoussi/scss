@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
-  <diagram name="Page-1" id="hjVhkrp53gZ4-DY3idzN">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6" pages="2">
+  <diagram name="RootAccount" id="hjVhkrp53gZ4-DY3idzN">
     <mxGraphModel dx="2117" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -7,7 +7,7 @@
         <mxCell id="vCPiMRCcKwazVJS_ToeS-2" value="RootAccountController" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="50" width="550" height="860" as="geometry" />
         </mxCell>
-        <mxCell id="vCPiMRCcKwazVJS_ToeS-13" value="[Page Twig] Account Creation" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="vCPiMRCcKwazVJS_ToeS-2">
+        <mxCell id="vCPiMRCcKwazVJS_ToeS-13" value="[Page Twig] Account Creation" style="swimlane;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="vCPiMRCcKwazVJS_ToeS-2">
           <mxGeometry x="40" y="45" width="470" height="785" as="geometry" />
         </mxCell>
         <mxCell id="vCPiMRCcKwazVJS_ToeS-4" value="[Live Component] StepManager" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="vCPiMRCcKwazVJS_ToeS-13">
@@ -61,6 +61,76 @@
           <mxGeometry y="120" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vCPiMRCcKwazVJS_ToeS-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.987;exitY=0.127;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vCPiMRCcKwazVJS_ToeS-7" target="vCPiMRCcKwazVJS_ToeS-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="340" as="sourcePoint" />
+            <mxPoint x="460" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="U9IjpZlLC1RvDgW6Swil" name="AddColllab">
+    <mxGraphModel dx="2117" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hfBDhMZC0WoVt_mIFutd-1" value="AddCollaboratorController" style="swimlane;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="170" y="50" width="550" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="hfBDhMZC0WoVt_mIFutd-2" value="[Page Twig] addCollaborator" style="swimlane;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="hfBDhMZC0WoVt_mIFutd-1">
+          <mxGeometry x="40" y="45" width="470" height="785" as="geometry" />
+        </mxCell>
+        <mxCell id="hfBDhMZC0WoVt_mIFutd-3" value="[Live Component] StepManager" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hfBDhMZC0WoVt_mIFutd-2">
+          <mxGeometry x="20" y="45" width="430" height="705" as="geometry" />
+        </mxCell>
+        <mxCell id="hfBDhMZC0WoVt_mIFutd-4" value="[Twig Component] Step Layout" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hfBDhMZC0WoVt_mIFutd-3">
+          <mxGeometry x="40" y="40" width="350" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hfBDhMZC0WoVt_mIFutd-5" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Item 1&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="hfBDhMZC0WoVt_mIFutd-4">
+          <mxGeometry x="110" y="40" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hfBDhMZC0WoVt_mIFutd-6" value="[Twig Component] Step Layout" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hfBDhMZC0WoVt_mIFutd-3">
+          <mxGeometry x="40" y="261.5" width="350" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hfBDhMZC0WoVt_mIFutd-7" value="[Live Component]&lt;br&gt;&lt;div&gt;FormComponent&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=#D5E8D4;" vertex="1" parent="hfBDhMZC0WoVt_mIFutd-6">
+          <mxGeometry x="170" y="50" width="170" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="hfBDhMZC0WoVt_mIFutd-8" value="Save() make API call" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="hfBDhMZC0WoVt_mIFutd-7">
+          <mxGeometry x="20" y="68.5" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hfBDhMZC0WoVt_mIFutd-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Item 2&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="hfBDhMZC0WoVt_mIFutd-6">
+          <mxGeometry x="20" y="45" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hfBDhMZC0WoVt_mIFutd-10" value="[Twig Component] Step Layout" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hfBDhMZC0WoVt_mIFutd-3">
+          <mxGeometry x="40" y="485" width="350" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hfBDhMZC0WoVt_mIFutd-11" value="[Live Component]&lt;br&gt;&lt;div&gt;FormComponent&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=#D5E8D4;" vertex="1" parent="hfBDhMZC0WoVt_mIFutd-10">
+          <mxGeometry x="170" y="50" width="170" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="hfBDhMZC0WoVt_mIFutd-12" value="Save() make API call" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="hfBDhMZC0WoVt_mIFutd-11">
+          <mxGeometry x="20" y="65" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hfBDhMZC0WoVt_mIFutd-13" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Item 3&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="hfBDhMZC0WoVt_mIFutd-10">
+          <mxGeometry x="20" y="45" width="140" height="130" as="geometry" />
+        </mxCell>
+        <object label="[Enum]&amp;nbsp;&lt;div&gt;Steps&lt;span style=&quot;background-color: initial;&quot;&gt;AddCollaborator&lt;/span&gt;&lt;/div&gt;" Methode="Prev()" id="hfBDhMZC0WoVt_mIFutd-14">
+          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="1">
+            <mxGeometry x="-60" y="130" width="140" height="150" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="hfBDhMZC0WoVt_mIFutd-15" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hfBDhMZC0WoVt_mIFutd-14">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hfBDhMZC0WoVt_mIFutd-16" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hfBDhMZC0WoVt_mIFutd-14">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hfBDhMZC0WoVt_mIFutd-17" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hfBDhMZC0WoVt_mIFutd-14">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hfBDhMZC0WoVt_mIFutd-18" value="&lt;b&gt;Prev()&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;Next()&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hfBDhMZC0WoVt_mIFutd-14">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hfBDhMZC0WoVt_mIFutd-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.987;exitY=0.127;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hfBDhMZC0WoVt_mIFutd-14" target="hfBDhMZC0WoVt_mIFutd-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="410" y="340" as="sourcePoint" />
             <mxPoint x="460" y="290" as="targetPoint" />
