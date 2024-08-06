@@ -7,7 +7,7 @@
         <mxCell id="vCPiMRCcKwazVJS_ToeS-2" value="RootAccountController" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="50" width="550" height="860" as="geometry" />
         </mxCell>
-        <mxCell id="vCPiMRCcKwazVJS_ToeS-13" value="[Page Twig] Account Creation" style="swimlane;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="vCPiMRCcKwazVJS_ToeS-2">
+        <mxCell id="vCPiMRCcKwazVJS_ToeS-13" value="[Page Twig] Account Creation" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="vCPiMRCcKwazVJS_ToeS-2">
           <mxGeometry x="40" y="45" width="470" height="785" as="geometry" />
         </mxCell>
         <mxCell id="vCPiMRCcKwazVJS_ToeS-4" value="[Live Component] StepManager" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="vCPiMRCcKwazVJS_ToeS-13">
@@ -65,6 +65,32 @@
             <mxPoint x="410" y="340" as="sourcePoint" />
             <mxPoint x="460" y="290" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <object label="[Model]&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;RootAccount&lt;/span&gt;&lt;/div&gt;" Methode="Prev()" id="Lm3K_dO07wJuipo0JBms-1">
+          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="-210" y="130" width="140" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Lm3K_dO07wJuipo0JBms-2" value="email" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Lm3K_dO07wJuipo0JBms-1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lm3K_dO07wJuipo0JBms-3" value="name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Lm3K_dO07wJuipo0JBms-1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lm3K_dO07wJuipo0JBms-4" value="phone" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Lm3K_dO07wJuipo0JBms-1">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CvgGF4gJWONHQ6dOoYTm-2" value="Questions" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="980" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="CvgGF4gJWONHQ6dOoYTm-1" value="Save a chaque step comme sur Root account ? A la toute fin ?&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CvgGF4gJWONHQ6dOoYTm-2">
+          <mxGeometry y="67.5" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CvgGF4gJWONHQ6dOoYTm-4" value="Collection temporaire ou directement save dans &lt;b&gt;Professional&lt;/b&gt; ?&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CvgGF4gJWONHQ6dOoYTm-2">
+          <mxGeometry y="92.5" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CvgGF4gJWONHQ6dOoYTm-5" value="Un seul flow ? Split en deux flow ?&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CvgGF4gJWONHQ6dOoYTm-2">
+          <mxGeometry y="45" width="360" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -135,6 +161,20 @@
             <mxPoint x="410" y="340" as="sourcePoint" />
             <mxPoint x="460" y="290" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <object label="[Model]&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Collab ?&lt;/span&gt;&lt;/div&gt;" Methode="Prev()" id="abCe-bFiN8h1fTdktHmA-1">
+          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="-210" y="130" width="140" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="abCe-bFiN8h1fTdktHmA-2" value="email" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="abCe-bFiN8h1fTdktHmA-1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="abCe-bFiN8h1fTdktHmA-3" value="name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="abCe-bFiN8h1fTdktHmA-1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="abCe-bFiN8h1fTdktHmA-4" value="phone" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="abCe-bFiN8h1fTdktHmA-1">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
